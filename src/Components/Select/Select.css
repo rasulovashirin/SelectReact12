@@ -56,6 +56,7 @@ margin-top: 100px;
 }
 .select-item:active {
   background-color: rgb(91, 143, 196);
+  color:#fff;
  }
 .select-item:not(:last-child) {
   border-bottom: 2px solid rgb(101, 139, 175);
