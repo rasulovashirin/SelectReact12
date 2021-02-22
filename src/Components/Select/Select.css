@@ -43,7 +43,7 @@ margin-top: 100px;
   list-style-type: none;
   border: 2px solid rgb(101, 139, 175);
   border-top: 0;
-  height: 256px;
+  height: 275px;
   overflow-y: auto;
 }
 .select-item {

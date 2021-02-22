@@ -30,7 +30,8 @@ function Select () {
     "Mercedes",
     "Audi",
     "Hyundai",
-    "Ferrari"
+    "Ferrari",
+    "BMW"
   ]
   return (
     <>
