@@ -38,10 +38,14 @@ function Select () {
 
       <ul ref={selectRef}>
 					{
+
 						data.map((f, i) => {
 
 							return (
-								<li key={i} className="select-item" onClick={()=> setValue(f)}>
+								<li key={i} className="select-item" onClick={()=>{
+                  setValue(f)
+                  setOpen(!open)
+                }}>
 									{f}
 								</li>
 							)
