@@ -59,7 +59,7 @@ margin-top: 100px;
   color:#fff;
  }
 .select-item:not(:last-child) {
-  border-bottom: 2px solid rgb(101, 139, 175);
+  border-bottom: 1px solid rgba(101, 139, 175, 0.459);
 
 }
 
