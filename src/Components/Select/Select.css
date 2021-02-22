@@ -43,6 +43,8 @@ margin-top: 100px;
   list-style-type: none;
   border: 2px solid rgb(101, 139, 175);
   border-top: 0;
+  height: 256px;
+  overflow-y: auto;
 }
 .select-item {
   width: 100%;
@@ -58,4 +60,17 @@ margin-top: 100px;
 .select-item:not(:last-child) {
   border-bottom: 2px solid rgb(101, 139, 175);
 
+}
+
+.select-open::-webkit-scrollbar {
+  width: 4px;
+}
+
+.select-open::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.select-open::-webkit-scrollbar-thumb {
+  background-color: rgba(169, 169, 169, 0.637);
+  outline: 1px solid slategrey;
 }

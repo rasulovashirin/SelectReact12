@@ -29,6 +29,8 @@ function Select () {
     "Volvo",
     "Mercedes",
     "Audi",
+    "Hyundai",
+    "Ferrari"
   ]
   return (
     <>
