@@ -43,7 +43,6 @@ function Select () {
 					{
 
 						data.map((f, i) => {
-
 							return (
 								<li key={i} className="select-item" onClick={()=>{
                   setValue(f)
@@ -56,6 +55,13 @@ function Select () {
 					}
 				</ul>
       </div>
+      <select name="" id="">
+        <option value="">ijsdhushdjnzx</option>
+        <option value="">ijsdhushdjnzx</option>
+        <option value="">ijsdhushdjnzx</option>
+        <option value="">ijsdhushdjnzx</option>
+        <option value="">ijsdhushdjnzx</option>
+      </select>
      </div>
     </>
   )
