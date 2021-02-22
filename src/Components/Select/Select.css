@@ -1,0 +1,61 @@
+.select {
+width: 300px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 100px;
+}
+.select-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border:0;
+  text-align: left;
+  background-color: transparent;
+  border: 2px solid rgb(101, 139, 175);
+  background-color: #fff;
+  font-family: "Poppins","Arial", sans-serif;
+  font-weight: 500;
+}
+.select-button::after {
+  width: 20px;
+  height: 20px;
+  background-image: url(./arrow-down-sign-to-navigate.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+.select-button:focus {
+  outline: 0;
+}
+
+.select-list {
+  display: none;
+}
+.select-open {
+  display: block;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 2px solid rgb(101, 139, 175);
+  border-top: 0;
+}
+.select-item {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}
+.select-item:hover {
+  background-color: rgba(211, 211, 203, 0.521);
+}
+.select-item:active {
+  background-color: rgb(91, 143, 196);
+ }
+.select-item:not(:last-child) {
+  border-bottom: 2px solid rgb(101, 139, 175);
+
+}

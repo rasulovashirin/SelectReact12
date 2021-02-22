@@ -1,0 +1,23 @@
+:root {
+  --index: 0;
+}
+.slider {
+font-size: 25px;
+margin-bottom: 50px;
+overflow-x: hidden;
+}
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  transform: translateX(calc(var(--index)* -100%));
+
+}
+.slider-item {
+ background-color: #fff;
+ min-width: 50%;
+ text-align: center;
+ border: 1px solid #000;
+}
